@@ -1,0 +1,10 @@
+{
+  "note": "Example order from the variable list. Supply the exact order used by your own checkpoint.",
+  "feature_names": [
+    "diabetes_duration", "height", "weight", "systolic_bp", "diastolic_bp",
+    "potassium", "sodium", "chloride", "total_co2", "total_calcium", "Scr",
+    "urea", "glucose", "plasma_osmolality", "urinary_creatinine", "eGFR",
+    "UA", "triglycerides", "total_cholesterol", "HDL-C", "LDL-C", "HbA1c",
+    "uAlb", "random_c_peptide", "homocysteine", "adiponectin"
+  ]
+}

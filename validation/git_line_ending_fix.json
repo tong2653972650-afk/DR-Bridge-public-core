@@ -1,0 +1,96 @@
+{
+  "previous_failure": {
+    "old_git_checkout_failure_reproduced": true,
+    "error": "SHA-256 mismatch: PROVENANCE.json"
+  },
+  "normalized_files": [
+    {
+      "path": "PROVENANCE.json",
+      "previous_crlf_count": 26,
+      "had_bom": false
+    },
+    {
+      "path": "VALIDATION_REPORT.md",
+      "previous_crlf_count": 24,
+      "had_bom": false
+    },
+    {
+      "path": "validation/author_source_regression.json",
+      "previous_crlf_count": 21,
+      "had_bom": false
+    },
+    {
+      "path": "validation/backbone_smoke.json",
+      "previous_crlf_count": 37,
+      "had_bom": false
+    },
+    {
+      "path": "validation/demo_cpu.json",
+      "previous_crlf_count": 24,
+      "had_bom": false
+    },
+    {
+      "path": "validation/environment.json",
+      "previous_crlf_count": 13,
+      "had_bom": false
+    },
+    {
+      "path": "validation/fingerprint_compatibility.json",
+      "previous_crlf_count": 25,
+      "had_bom": false
+    },
+    {
+      "path": "validation/public_payload_audit.json",
+      "previous_crlf_count": 7,
+      "had_bom": false
+    },
+    {
+      "path": "validation/release_compatibility_fix.json",
+      "previous_crlf_count": 22,
+      "had_bom": false
+    },
+    {
+      "path": "validation/unit_tests.json",
+      "previous_crlf_count": 54,
+      "had_bom": false
+    },
+    {
+      "path": "MANIFEST.sha256",
+      "previous_crlf_count": 41,
+      "had_bom": false
+    }
+  ],
+  "core_source_lf_normalized_sha256": {
+    "src/drbridge/model.py": "358dd1e78f3b856d7e15bec056ac6c78ed7ce6a475e56d7ff298e4fac16a5052",
+    "src/drbridge/image_monitor.py": "03cfb9077c926fff5fc99003e9f24a345680ed2d3762abdbf0f822414680d0fa",
+    "src/drbridge/indicator_monitor.py": "da7ec9657a5776000d056e9735f3d9fb399d3096015ab5107084d86aada93c25",
+    "src/drbridge/adjustment.py": "bc201b49cfba05f1a2917859eaec23849c0d9524770edfc3fa58990093b6ff52",
+    "src/drbridge/pipeline.py": "d2fabb794581dbbb3bd137abc579dbaa2ac136b804abc4088549aa30e57482df",
+    "src/drbridge/spatial.py": "5bde5aa6ec15be5257aa13146d46259b5524b5de6222ca9a568d508af0c9e6a3",
+    "src/drbridge/integrity.py": "3ee9192926ccc99f877de1fc2c8d4f512af031ca3c8313feb4f3150635be4986",
+    "src/drbridge/preprocessing.py": "f65e60be20d893f4cc15eaa1b2b8fb8368ea34cd0768af111c36b630ffeb3d52"
+  },
+  "algorithm_changes": false,
+  "new_text_policy": "UTF-8 without BOM, LF line endings",
+  "git_commit_and_clone_checks": {
+    "true": {
+      "manifest_and_fingerprint_check_python": [
+        "3.12",
+        "3.13"
+      ],
+      "git_index_and_checkout_text": "LF",
+      "full_cpu_commands_executed": false,
+      "full_cpu_commands_passed": null
+    },
+    "false": {
+      "manifest_and_fingerprint_check_python": [
+        "3.12",
+        "3.13"
+      ],
+      "git_index_and_checkout_text": "LF",
+      "full_cpu_commands_executed": false,
+      "full_cpu_commands_passed": null
+    }
+  },
+  "github_remote_run_claimed": false
+}

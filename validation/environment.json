@@ -1,0 +1,13 @@
+{
+  "python": "3.12.14",
+  "platform": "Windows x86_64",
+  "torch": "2.7.1+cpu",
+  "torchvision": "0.22.1+cpu",
+  "timm": "1.0.22",
+  "numpy": "2.5.2",
+  "Pillow": "12.3.0",
+  "huggingface_hub": "0.36.0",
+  "tested_device": "cpu",
+  "cuda_available_in_test_runtime": false,
+  "cuda_execution_tested": false
+}

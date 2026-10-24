@@ -1,0 +1,22 @@
+{
+  "fingerprints_by_python": {
+    "3.12": {
+      "_attention_mask_or_none": "50d7106d9e5548cdb5b285895230f13356c5ce447022f22fdd9480a68a541fb3",
+      "infer_from_tokens": "b345dd019e3ee8cfd0213257fb88e6442a2b498377adbe1d61ce026cad0609ad"
+    },
+    "3.13": {
+      "_attention_mask_or_none": "50d7106d9e5548cdb5b285895230f13356c5ce447022f22fdd9480a68a541fb3",
+      "infer_from_tokens": "b345dd019e3ee8cfd0213257fb88e6442a2b498377adbe1d61ce026cad0609ad"
+    }
+  },
+  "identical": true,
+  "focused_tests_per_python": 12,
+  "locally_tested_python_versions": [
+    "3.12",
+    "3.13"
+  ],
+  "additional_ci_matrix_versions": [
+    "3.10",
+    "3.11"
+  ]
+}

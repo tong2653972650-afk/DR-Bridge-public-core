@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "drbridge-public-core"
+version = "0.5.2"
+description = "DR-Bridge cross-attention, joint evidence monitoring and attention refinement"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.7,<3", "numpy>=1.24", "Pillow>=10"]
+
+[project.optional-dependencies]
+backbones = ["torchvision>=0.22", "timm>=1.0.22,<2", "huggingface-hub>=0.25,<1"]
+test = ["pytest>=8,<9"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-ra"
+

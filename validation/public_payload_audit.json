@@ -1,0 +1,7 @@
+{
+  "files_scanned": 45,
+  "private_path_or_secret_findings": [],
+  "patient_files_included": false,
+  "trained_checkpoints_included": false,
+  "manual_scope_review": "Public source, configuration examples and non-patient software validation only"
+}

@@ -1,0 +1,22 @@
+{
+  "old_package_behavior": {
+    "old_archive_sha256": "ddf1ee5a503fc81a39856ef5fcccb59c0cbf3271a80cd13e41556a62a2052d61",
+    "python312_verify_exit": 0,
+    "python313_verify_exit": 1,
+    "python313_error": "Author method fingerprint mismatch: infer_from_tokens",
+    "cause": "Version-specific ast.dump display formatting, not a changed method signature"
+  },
+  "core_source_files_unchanged": {
+    "src/drbridge/model.py": "358dd1e78f3b856d7e15bec056ac6c78ed7ce6a475e56d7ff298e4fac16a5052",
+    "src/drbridge/image_monitor.py": "03cfb9077c926fff5fc99003e9f24a345680ed2d3762abdbf0f822414680d0fa",
+    "src/drbridge/indicator_monitor.py": "da7ec9657a5776000d056e9735f3d9fb399d3096015ab5107084d86aada93c25",
+    "src/drbridge/adjustment.py": "bc201b49cfba05f1a2917859eaec23849c0d9524770edfc3fa58990093b6ff52",
+    "src/drbridge/pipeline.py": "d2fabb794581dbbb3bd137abc579dbaa2ac136b804abc4088549aa30e57482df",
+    "src/drbridge/spatial.py": "5bde5aa6ec15be5257aa13146d46259b5524b5de6222ca9a568d508af0c9e6a3",
+    "src/drbridge/integrity.py": "3ee9192926ccc99f877de1fc2c8d4f512af031ca3c8313feb4f3150635be4986",
+    "src/drbridge/preprocessing.py": "f65e60be20d893f4cc15eaa1b2b8fb8368ea34cd0768af111c36b630ffeb3d52"
+  },
+  "algorithm_changes": false,
+  "fixed_schema": "python-ast-json-v1",
+  "original_method_bias_arguments_confirmed": true
+}

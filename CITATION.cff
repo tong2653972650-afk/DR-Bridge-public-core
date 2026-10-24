@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "Please cite the associated DR-Bridge study when using this computational core."
+title: "DR-Bridge Public Computational Core"
+version: 0.5.2
+date-released: 2026-10-20
+authors:
+  - name: "DR-Bridge contributors"
+license: MIT
+

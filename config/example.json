@@ -1,0 +1,19 @@
+{
+  "purpose": "Runnable software example, not the study training configuration",
+  "model": {
+    "backbone": "convnext_small",
+    "token_dim": 32,
+    "num_heads": 4,
+    "clinical_layers": 2,
+    "fusion_layers": 1,
+    "dropout": 0.0,
+    "head_hidden_dim": 32,
+    "clinical_dim": 26,
+    "num_classes": 5,
+    "image_grid_size": 16
+  },
+  "attention_control": {
+    "suppression_strength": 0.4,
+    "enhancement_strength": 0.8
+  }
+}

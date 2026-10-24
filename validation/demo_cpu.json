@@ -1,0 +1,24 @@
+{
+  "purpose": "software demonstration using non-patient inputs and untrained weights",
+  "device": "cpu",
+  "torch_version": "2.7.1+cpu",
+  "top2_scores": [
+    0.5149999856948853,
+    0.5199999809265137,
+    0.05999999865889549
+  ],
+  "automatic_eligible": [
+    true,
+    false,
+    false
+  ],
+  "specialist_review": [
+    true,
+    true,
+    false
+  ],
+  "primary_weights_unchanged": true,
+  "max_attention_change": 0.0037217801436781883,
+  "max_logit_change": 2.8848648071289062e-05,
+  "state_sha256": "b0c52722f58e9d1b623bb11db94123f1e9b5bf610052bd66e8217aa4d738485b"
+}

@@ -1,0 +1,37 @@
+{
+  "purpose": "untrained backbone forward verification",
+  "device": "cpu",
+  "primary_logits_shape": [
+    1,
+    5
+  ],
+  "clinical_to_image_shape": [
+    1,
+    8,
+    26,
+    256
+  ],
+  "image_to_clinical_shape": [
+    1,
+    8,
+    256,
+    26
+  ],
+  "primary_finite": true,
+  "evidence_logits_shape": [
+    1,
+    4
+  ],
+  "evidence_probabilities_sum": 1.0000001192092896,
+  "evidence_finite": true,
+  "joint_pipeline_finite": true,
+  "joint_pipeline_weights_unchanged": true,
+  "joint_pipeline_top2_shape": [
+    1
+  ],
+  "joint_pipeline_full_ranking_shape": [
+    1,
+    1,
+    26
+  ]
+}

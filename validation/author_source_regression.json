@@ -1,0 +1,20 @@
+{
+  "source_method_ast_match": true,
+  "strict_state_dict_load": true,
+  "device": "cpu",
+  "matching_explicit_test_settings": true,
+  "maximum_absolute_differences": {
+    "encode_image_tokens": 0.0,
+    "encode_clinical_tokens": 0.0,
+    "baseline_logits": 0.0,
+    "baseline_attention_c2i": 0.0,
+    "baseline_attention_i2c": 0.0,
+    "region_bias_logits": 0.0,
+    "region_bias_attention_c2i": 0.0,
+    "region_bias_attention_i2c": 0.0,
+    "both_biases_logits": 0.0,
+    "both_biases_attention_c2i": 0.0,
+    "both_biases_attention_i2c": 0.0
+  },
+  "all_bitwise_identical": true
+}

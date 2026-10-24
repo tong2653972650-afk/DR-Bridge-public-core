@@ -1,0 +1,26 @@
+{
+  "version": "0.5.2",
+  "source_files": {
+    "author_release_v040": {
+      "sha256": "ca76a8d9f7864a575e48d4d0d32d8d920ffc2fe78a59efb26dad90ba27f47d3e"
+    },
+    "author_finalist": {
+      "sha256": "c2779cfdf28834d666bf0f71f85f2530b9f013c94e7c535f8c1db5c129e7fb87"
+    }
+  },
+  "fingerprint_method": "SHA-256 of canonical AST JSON with empty type_params normalized",
+  "preserved_class": "DRBridgeModel",
+  "preserved_methods": {
+    "infer_from_tokens": "b345dd019e3ee8cfd0213257fb88e6442a2b498377adbe1d61ce026cad0609ad",
+    "_attention_mask_or_none": "50d7106d9e5548cdb5b285895230f13356c5ce447022f22fdd9480a68a541fb3"
+  },
+  "public_changes": [
+    "Explicit constructor settings and injected-backbone support",
+    "Manuscript interface: 26 clinical variables and a 16x16 image-token grid",
+    "Input validation; separate single-head four-class image monitor",
+    "Top-2 image scoring; Top-6 clinical association verification",
+    "Spatial attention refinement and parallel specialist-review flags"
+  ],
+  "scope": "Method identity is established only for the named methods, not for the whole public file.",
+  "fingerprint_schema": "python-ast-json-v1"
+}
